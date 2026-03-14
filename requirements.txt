@@ -1,0 +1,21 @@
+# Core ML + vision
+tensorflow==2.13.0
+numpy==1.24.3
+opencv-python==4.8.0.74
+matplotlib==3.7.1
+pillow==10.0.0
+
+# Screen capture & Windows input
+mss==9.0.1
+pywin32==306
+keyboard==0.13.5
+
+# Optional: TMInterface Python client
+# Install for accurate speed/physics data directly from game memory.
+# Download TMInterface from https://donadigo.com/tminterface/ and install it,
+# then: pip install tminterface
+# tminterface
+
+# Optional: pytesseract (speed OCR fallback when TMInterface is not used)
+# Requires Tesseract binary: https://github.com/UB-Mannheim/tesseract/wiki
+# pytesseract==0.3.10
